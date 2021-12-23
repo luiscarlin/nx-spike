@@ -8,8 +8,8 @@ const StyledButton = styled.button`
   background: red;
 `;
 
-export function Button({ text }: ButtonProps) {
+export const Button = ({ text }: ButtonProps) => {
   return <StyledButton>{text}</StyledButton>;
-}
+};
 
 export default Button;
