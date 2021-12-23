@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@luis/ui": ["libs/ui/src/index.ts"]
+      "@fullstack/types": ["libs/types/src/index.ts"],
+      "@fullstack/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

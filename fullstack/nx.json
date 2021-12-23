@@ -1,5 +1,5 @@
 {
-  "npmScope": "luis",
+  "npmScope": "fullstack",
   "affected": {
     "defaultBase": "main"
   },
@@ -35,7 +35,6 @@
       }
     ]
   },
-  "defaultProject": "api",
   "generators": {
     "@nrwl/react": {
       "application": {
@@ -48,5 +47,6 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "defaultProject": "api"
 }
